@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 380" width="1100" height="380">
+<defs>
+  <filter id="termglow"><feGaussianBlur stdDeviation="0.4"/></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="100%" stop-color="#000000"/>
+  </linearGradient>
+</defs>
+
+<!-- terminal window background -->
+<rect x="10" y="10" width="1080" height="360" rx="10" fill="url(#bg)" stroke="#00FF41" stroke-width="1.5" opacity="0.95"/>
+
+<!-- title bar -->
+<rect x="10" y="10" width="1080" height="36" rx="10" fill="#0f0f0f" stroke="#00FF41" stroke-width="1.5"/>
+<rect x="10" y="36" width="1080" height="10" fill="#0f0f0f"/>
+
+<!-- traffic dots -->
+<circle cx="36" cy="28" r="6" fill="#FF5F56"/>
+<circle cx="58" cy="28" r="6" fill="#FFBD2E"/>
+<circle cx="80" cy="28" r="6" fill="#27C93F"/>
+
+<!-- title text -->
+<text x="50%" y="33" text-anchor="middle" font-family="Fira Code,monospace" font-size="13" fill="#7CFFA1" letter-spacing="2">root@anku0669 — bash — 110×30</text>
+
+<!-- prompt line -->
+<text x="40" y="78" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#7CFFA1">┌──(root㉿anku0669)-[~]</text>
+<text x="40" y="96" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#7CFFA1">└─# ./initialize.sh --verbose</text>
+
+<g filter="url(#termglow)">
+<text x="40" y="100" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#00FF41" opacity="0">
+  [  OK  ] root@anku0669: secure shell established
+  <animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="120" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#00FF41" opacity="0">
+  [  OK  ] loading kernel modules ............ done
+  <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="140" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#00FF41" opacity="0">
+  [  OK  ] mounting /dev/matrix ............... done
+  <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="160" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#7CFFA1" opacity="0">
+  [  OK  ] starting tor service ............... done
+  <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="180" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#FFD43B" opacity="0">
+  [ WARN ] suspicious pattern detected on port 1337
+  <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="200" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#00FF41" opacity="0">
+  [  OK  ] firewall hardened — iptables locked.
+  <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="220" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#00FF41" opacity="0">
+  [  OK  ] ai/ml red-team toolkit loaded
+  <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="260" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#FFFFFF" opacity="0">
+  $ whoami
+  <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="280" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#00FF41" opacity="0">
+  ankush — ai security researcher · llm red teamer
+  <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="300" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#FFFFFF" opacity="0">
+  $ cat /etc/manifesto
+  <animate attributeName="opacity" from="0" to="1" begin="4.4s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="320" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#FF0033" opacity="0">
+  "i don't break the rules. i find the bugs in them."
+  <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="340" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#FFFFFF" opacity="0">
+  $ status
+  <animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="0.05s" fill="freeze"/>
+</text><text x="40" y="360" font-family="Fira Code,Courier New,monospace" font-size="14" fill="#00FF41" opacity="0">
+  ⚡ ONLINE — scanning the matrix...
+  <animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.05s" fill="freeze"/>
+</text>
+<rect x="40" y="368" width="9" height="15" fill="#00FF41" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.05s" fill="freeze"/>
+  <animate attributeName="opacity" values="1;0;1" dur="1s" begin="6.1s" repeatCount="indefinite"/>
+</rect>
+</g>
+
+<!-- subtle scanlines overlay -->
+<g opacity="0.05">
+<rect x="11" y="50" width="1078" height="1" fill="#00FF41"/><rect x="11" y="53" width="1078" height="1" fill="#00FF41"/><rect x="11" y="56" width="1078" height="1" fill="#00FF41"/><rect x="11" y="59" width="1078" height="1" fill="#00FF41"/><rect x="11" y="62" width="1078" height="1" fill="#00FF41"/><rect x="11" y="65" width="1078" height="1" fill="#00FF41"/><rect x="11" y="68" width="1078" height="1" fill="#00FF41"/><rect x="11" y="71" width="1078" height="1" fill="#00FF41"/><rect x="11" y="74" width="1078" height="1" fill="#00FF41"/><rect x="11" y="77" width="1078" height="1" fill="#00FF41"/><rect x="11" y="80" width="1078" height="1" fill="#00FF41"/><rect x="11" y="83" width="1078" height="1" fill="#00FF41"/><rect x="11" y="86" width="1078" height="1" fill="#00FF41"/><rect x="11" y="89" width="1078" height="1" fill="#00FF41"/><rect x="11" y="92" width="1078" height="1" fill="#00FF41"/><rect x="11" y="95" width="1078" height="1" fill="#00FF41"/><rect x="11" y="98" width="1078" height="1" fill="#00FF41"/><rect x="11" y="101" width="1078" height="1" fill="#00FF41"/><rect x="11" y="104" width="1078" height="1" fill="#00FF41"/><rect x="11" y="107" width="1078" height="1" fill="#00FF41"/><rect x="11" y="110" width="1078" height="1" fill="#00FF41"/><rect x="11" y="113" width="1078" height="1" fill="#00FF41"/><rect x="11" y="116" width="1078" height="1" fill="#00FF41"/><rect x="11" y="119" width="1078" height="1" fill="#00FF41"/><rect x="11" y="122" width="1078" height="1" fill="#00FF41"/><rect x="11" y="125" width="1078" height="1" fill="#00FF41"/><rect x="11" y="128" width="1078" height="1" fill="#00FF41"/><rect x="11" y="131" width="1078" height="1" fill="#00FF41"/><rect x="11" y="134" width="1078" height="1" fill="#00FF41"/><rect x="11" y="137" width="1078" height="1" fill="#00FF41"/><rect x="11" y="140" width="1078" height="1" fill="#00FF41"/><rect x="11" y="143" width="1078" height="1" fill="#00FF41"/><rect x="11" y="146" width="1078" height="1" fill="#00FF41"/><rect x="11" y="149" width="1078" height="1" fill="#00FF41"/><rect x="11" y="152" width="1078" height="1" fill="#00FF41"/><rect x="11" y="155" width="1078" height="1" fill="#00FF41"/><rect x="11" y="158" width="1078" height="1" fill="#00FF41"/><rect x="11" y="161" width="1078" height="1" fill="#00FF41"/><rect x="11" y="164" width="1078" height="1" fill="#00FF41"/><rect x="11" y="167" width="1078" height="1" fill="#00FF41"/><rect x="11" y="170" width="1078" height="1" fill="#00FF41"/><rect x="11" y="173" width="1078" height="1" fill="#00FF41"/><rect x="11" y="176" width="1078" height="1" fill="#00FF41"/><rect x="11" y="179" width="1078" height="1" fill="#00FF41"/><rect x="11" y="182" width="1078" height="1" fill="#00FF41"/><rect x="11" y="185" width="1078" height="1" fill="#00FF41"/><rect x="11" y="188" width="1078" height="1" fill="#00FF41"/><rect x="11" y="191" width="1078" height="1" fill="#00FF41"/><rect x="11" y="194" width="1078" height="1" fill="#00FF41"/><rect x="11" y="197" width="1078" height="1" fill="#00FF41"/><rect x="11" y="200" width="1078" height="1" fill="#00FF41"/><rect x="11" y="203" width="1078" height="1" fill="#00FF41"/><rect x="11" y="206" width="1078" height="1" fill="#00FF41"/><rect x="11" y="209" width="1078" height="1" fill="#00FF41"/><rect x="11" y="212" width="1078" height="1" fill="#00FF41"/><rect x="11" y="215" width="1078" height="1" fill="#00FF41"/><rect x="11" y="218" width="1078" height="1" fill="#00FF41"/><rect x="11" y="221" width="1078" height="1" fill="#00FF41"/><rect x="11" y="224" width="1078" height="1" fill="#00FF41"/><rect x="11" y="227" width="1078" height="1" fill="#00FF41"/><rect x="11" y="230" width="1078" height="1" fill="#00FF41"/><rect x="11" y="233" width="1078" height="1" fill="#00FF41"/><rect x="11" y="236" width="1078" height="1" fill="#00FF41"/><rect x="11" y="239" width="1078" height="1" fill="#00FF41"/><rect x="11" y="242" width="1078" height="1" fill="#00FF41"/><rect x="11" y="245" width="1078" height="1" fill="#00FF41"/><rect x="11" y="248" width="1078" height="1" fill="#00FF41"/><rect x="11" y="251" width="1078" height="1" fill="#00FF41"/><rect x="11" y="254" width="1078" height="1" fill="#00FF41"/><rect x="11" y="257" width="1078" height="1" fill="#00FF41"/><rect x="11" y="260" width="1078" height="1" fill="#00FF41"/><rect x="11" y="263" width="1078" height="1" fill="#00FF41"/><rect x="11" y="266" width="1078" height="1" fill="#00FF41"/><rect x="11" y="269" width="1078" height="1" fill="#00FF41"/><rect x="11" y="272" width="1078" height="1" fill="#00FF41"/><rect x="11" y="275" width="1078" height="1" fill="#00FF41"/><rect x="11" y="278" width="1078" height="1" fill="#00FF41"/><rect x="11" y="281" width="1078" height="1" fill="#00FF41"/><rect x="11" y="284" width="1078" height="1" fill="#00FF41"/><rect x="11" y="287" width="1078" height="1" fill="#00FF41"/><rect x="11" y="290" width="1078" height="1" fill="#00FF41"/><rect x="11" y="293" width="1078" height="1" fill="#00FF41"/><rect x="11" y="296" width="1078" height="1" fill="#00FF41"/><rect x="11" y="299" width="1078" height="1" fill="#00FF41"/><rect x="11" y="302" width="1078" height="1" fill="#00FF41"/><rect x="11" y="305" width="1078" height="1" fill="#00FF41"/><rect x="11" y="308" width="1078" height="1" fill="#00FF41"/><rect x="11" y="311" width="1078" height="1" fill="#00FF41"/><rect x="11" y="314" width="1078" height="1" fill="#00FF41"/><rect x="11" y="317" width="1078" height="1" fill="#00FF41"/><rect x="11" y="320" width="1078" height="1" fill="#00FF41"/><rect x="11" y="323" width="1078" height="1" fill="#00FF41"/><rect x="11" y="326" width="1078" height="1" fill="#00FF41"/><rect x="11" y="329" width="1078" height="1" fill="#00FF41"/><rect x="11" y="332" width="1078" height="1" fill="#00FF41"/><rect x="11" y="335" width="1078" height="1" fill="#00FF41"/><rect x="11" y="338" width="1078" height="1" fill="#00FF41"/><rect x="11" y="341" width="1078" height="1" fill="#00FF41"/><rect x="11" y="344" width="1078" height="1" fill="#00FF41"/><rect x="11" y="347" width="1078" height="1" fill="#00FF41"/><rect x="11" y="350" width="1078" height="1" fill="#00FF41"/><rect x="11" y="353" width="1078" height="1" fill="#00FF41"/><rect x="11" y="356" width="1078" height="1" fill="#00FF41"/><rect x="11" y="359" width="1078" height="1" fill="#00FF41"/><rect x="11" y="362" width="1078" height="1" fill="#00FF41"/><rect x="11" y="365" width="1078" height="1" fill="#00FF41"/><rect x="11" y="368" width="1078" height="1" fill="#00FF41"/>
+</g>
+</svg>
