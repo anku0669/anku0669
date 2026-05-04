@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=820&lines=Hi+%F0%9F%91%8B%2C+I'm+Ankush;%7C%7C+Cybersecurity+Enthusiast+%7C%7C;%7C%7C+Python+%26+Java+Developer+%7C%7C;%7C%7C+Always+Learning+%E2%80%A2+Always+Building+%7C%7C" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=820&lines=Hi+%F0%9F%91%8B%2C+I'm+Ankush;%7C%7C+Security+Researcher+%7C%7C;%7C%7C+AI+%2F+LLM+Security+%E2%80%A2+Prompt+Injection+%7C%7C;%7C%7C+Cybersecurity+%E2%80%A2+Python+%E2%80%A2+Java+%7C%7C;%7C%7C+Breaking+Things+to+Make+Them+Safer+%7C%7C" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -21,9 +21,10 @@ class Ankush:
     def __init__(self):
         self.name        = "Ankush"
         self.handle      = "@anku0669"
-        self.role        = "Cybersecurity Enthusiast | Developer"
+        self.role        = "Security Researcher | AI Security | Developer"
         self.languages   = ["Python", "Java", "JavaScript"]
-        self.focus       = ["Cryptography", "Authentication", "Web Security"]
+        self.focus       = ["AI / LLM Security", "Prompt Injection", "Cryptography", "Authentication"]
+        self.research    = ["Jailbreaks", "Adversarial ML", "Red Teaming LLMs", "Model Exploits"]
         self.learning    = ["Ethical Hacking", "Reverse Engineering", "Cloud Security"]
         self.fuel        = ["☕  Coffee", "🎧  Lo-fi", "🌙  Late Nights"]
 
@@ -43,12 +44,45 @@ me.say_hi()
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/-AI%20Security-0d1117?style=for-the-badge&logo=openai&logoColor=00F5FF" />
+  <img src="https://img.shields.io/badge/-Prompt%20Injection-0d1117?style=for-the-badge&logo=anthropic&logoColor=FF2E92" />
+  <img src="https://img.shields.io/badge/-LLM%20Red%20Teaming-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD43B" />
+  <img src="https://img.shields.io/badge/-Adversarial%20ML-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
   <img src="https://img.shields.io/badge/-Cybersecurity-0d1117?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" />
   <img src="https://img.shields.io/badge/-Cryptography-0d1117?style=for-the-badge&logo=letsencrypt&logoColor=00F5FF" />
   <img src="https://img.shields.io/badge/-Encryption-0d1117?style=for-the-badge&logo=keepassxc&logoColor=7B2FFF" />
   <img src="https://img.shields.io/badge/-OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=FF2E92" />
   <img src="https://img.shields.io/badge/-Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FFD43B" />
 </p>
+
+---
+
+## 🧪 AI Security Research Focus
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/fluency/64/artificial-intelligence.png" /><br />
+      <b>LLM Security</b><br />
+      <sub>Securing large language<br />models against abuse</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/fluency/64/code-injection.png" /><br />
+      <b>Prompt Injection</b><br />
+      <sub>Direct &amp; indirect injection<br />attack research</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/fluency/64/bug.png" /><br />
+      <b>Jailbreaks</b><br />
+      <sub>Bypass techniques &amp;<br />guardrail evaluation</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/fluency/64/shield.png" /><br />
+      <b>Red Teaming</b><br />
+      <sub>Adversarial testing of<br />AI systems &amp; agents</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -138,6 +172,7 @@ me.say_hi()
 ---
 
 <p align="center">
+  <i>"The most dangerous prompt is the one you didn't think to test."</i><br />
   <i>"Security is not a product, but a process." — Bruce Schneier</i>
 </p>
 
